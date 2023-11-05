@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>video1</key>
+	<string>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4</string>
+	<key>video2</key>
+	<string>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4</string>
+	<key>video3</key>
+	<string>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</string>
+	<key>video4</key>
+	<string>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+	<key>video5</key>
+	<string>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</string>
+	<key>video6</key>
+	<string>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</string>
+	<key>video7</key>
+	<string>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4</string>
+</dict>
+</plist>

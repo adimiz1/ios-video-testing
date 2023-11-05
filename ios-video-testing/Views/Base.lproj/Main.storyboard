@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_video_testing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="350" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZR5-84-ea4">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoPlayerCell" id="Z1t-Ms-PlB" customClass="VideoPlayerCell" customModule="ios_video_testing" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z1t-Ms-PlB" id="xpR-GQ-Ifi">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="350"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lXh-Jz-2br">
+                                                    <rect key="frame" x="16" y="16" width="361" height="318"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1R-Xl-1lG">
+                                                    <rect key="frame" x="377" y="334" width="0.0" height="0.0"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="o1R-Xl-1lG" firstAttribute="trailing" secondItem="lXh-Jz-2br" secondAttribute="trailing" id="84b-am-Dzj"/>
+                                                <constraint firstAttribute="bottom" secondItem="lXh-Jz-2br" secondAttribute="bottom" constant="16" id="8iI-Qz-UoE"/>
+                                                <constraint firstItem="lXh-Jz-2br" firstAttribute="top" secondItem="xpR-GQ-Ifi" secondAttribute="top" constant="16" id="GKZ-rA-PCm"/>
+                                                <constraint firstItem="lXh-Jz-2br" firstAttribute="leading" secondItem="xpR-GQ-Ifi" secondAttribute="leading" constant="16" id="ZXR-HG-ExK"/>
+                                                <constraint firstItem="o1R-Xl-1lG" firstAttribute="bottom" secondItem="lXh-Jz-2br" secondAttribute="bottom" id="uHC-TB-wbG"/>
+                                                <constraint firstAttribute="trailing" secondItem="lXh-Jz-2br" secondAttribute="trailing" constant="16" id="zkR-Hm-haI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lbDuration" destination="o1R-Xl-1lG" id="W8a-fj-ZWS"/>
+                                            <outlet property="vwMain" destination="lXh-Jz-2br" id="EIg-Yg-RWt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZR5-84-ea4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="99v-M3-xa1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZR5-84-ea4" secondAttribute="bottom" id="Cpa-rK-8b4"/>
+                            <constraint firstItem="ZR5-84-ea4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RNF-8n-zYU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZR5-84-ea4" secondAttribute="trailing" id="ZiW-hr-ZIg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tvMain" destination="ZR5-84-ea4" id="fpz-B8-VHI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-123" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
