@@ -17,6 +17,7 @@
 		B675C5F12AF38B4A00BC6B0B /* VideoPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B675C5F02AF38B4A00BC6B0B /* VideoPlayerCell.swift */; };
 		B675C5F42AF38DF800BC6B0B /* Cloudinary in Frameworks */ = {isa = PBXBuildFile; productRef = B675C5F32AF38DF800BC6B0B /* Cloudinary */; };
 		B675C5F72AF38F4E00BC6B0B /* video_links.plist in Resources */ = {isa = PBXBuildFile; fileRef = B675C5F62AF38F4E00BC6B0B /* video_links.plist */; };
+		B675C5F92AF7A7BB00BC6B0B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B675C5F82AF7A7BB00BC6B0B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B675C5EE2AF38A4200BC6B0B /* VideoTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableController.swift; sourceTree = "<group>"; };
 		B675C5F02AF38B4A00BC6B0B /* VideoPlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerCell.swift; sourceTree = "<group>"; };
 		B675C5F62AF38F4E00BC6B0B /* video_links.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = video_links.plist; sourceTree = "<group>"; };
+		B675C5F82AF7A7BB00BC6B0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		B675C5CB2AF3897600BC6B0B = {
 			isa = PBXGroup;
 			children = (
+				B675C5F82AF7A7BB00BC6B0B /* README.md */,
 				B675C5D62AF3897600BC6B0B /* ios-video-testing */,
 				B675C5D52AF3897600BC6B0B /* Products */,
 			);
@@ -78,7 +81,6 @@
 		B675C5EB2AF3898D00BC6B0B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B675C5ED2AF38A3700BC6B0B /* Videos Table */,
 				B675C5DD2AF3897600BC6B0B /* Main.storyboard */,
 				B675C5E22AF3897700BC6B0B /* LaunchScreen.storyboard */,
 			);
@@ -88,6 +90,7 @@
 		B675C5EC2AF3899E00BC6B0B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B675C5ED2AF38A3700BC6B0B /* Videos Table */,
 				B675C5DB2AF3897600BC6B0B /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -176,6 +179,7 @@
 			files = (
 				B675C5E42AF3897700BC6B0B /* LaunchScreen.storyboard in Resources */,
 				B675C5E12AF3897700BC6B0B /* Assets.xcassets in Resources */,
+				B675C5F92AF7A7BB00BC6B0B /* README.md in Resources */,
 				B675C5F72AF38F4E00BC6B0B /* video_links.plist in Resources */,
 				B675C5DF2AF3897600BC6B0B /* Main.storyboard in Resources */,
 			);
